@@ -20,7 +20,6 @@ public class Window extends JFrame {
     JLabel areaText;
     JDialog errorsDialog;
     JLabel errors;
-    Integer pressed = null;
     boolean canShowAnswer;
     public JButton button = new JButton("Calculate");
 
@@ -133,7 +132,6 @@ public class Window extends JFrame {
                 this.volume = calculate.calculateVolume(this.height, this.width, length);
             }
             canShowAnswer = true;
-            String s = String.valueOf(area);
             System.out.println(area );
             System.out.println(volume);
             this.areaText.setText("area: " + String.format("%.4f", area));
