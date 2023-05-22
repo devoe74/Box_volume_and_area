@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Window extends JFrame {
-    public static final int WINDOW_WIDTH = 810;
+    public static final int WINDOW_WIDTH = 820;
     public static final int WINDOW_HEIGHT = 500;
 
     private String sWidth;
